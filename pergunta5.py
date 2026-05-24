@@ -4,7 +4,7 @@ def mostrar():
 
     st.write("Pergunta 5: Que som é esse?")
 
-    audio_file = open("sons\som5.mp3", "rb")
+    audio_file = open("sons/som5.mp3", "rb")
 
     st.audio(audio_file.read(), format="audio/mp3")
 
@@ -37,7 +37,7 @@ def mostrar():
         st.success("Resposta Correta!")
         col1, col2= st.columns(2)
         with col1:
-            st.image("imagens\som5.png", width=300)
+            st.image("imagens/som5.png", width=300)
         with col2: 
            st.markdown("""
                         ### Impressora matricial imprimindo formulário contínuo
@@ -55,7 +55,7 @@ def mostrar():
         st.error("Resposta Errada!")
         col1, col2= st.columns(2)
         with col1:
-            st.image("imagens\som5.png", width=300)
+            st.image("imagens/som5.png", width=300)
         with col2: 
            st.markdown("""
                         ### Impressora matricial imprimindo formulário contínuo
