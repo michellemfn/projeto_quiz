@@ -5,9 +5,9 @@ def mostrar():
     st.write("Pergunta 2: Que som é esse?")
     #primeiro som 
 
-    audio_file = open("sons/som2.mp3", "rb")
+    #audio_file = open("sons/som2.mp3", "rb")
 
-    st.audio(audio_file.read(), format="audio/mp3")
+    #st.audio(audio_file.read(), format="audio/mp3")
 
     # Variável inicial
     st.session_state.acerto = None
